@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Mobile Restautant Menu</title>
+       <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="images/header.gif" alt="Restautant Name">
+        </header>
+
+        <main>
+            <section id="menu-container">
+            </section>
+
+            <section id="order-container">
+                <h1>Your Order</h1>
+                <div id="order-items"></div>
+
+                <div class="total">
+                    <h3>Total Price</h3>
+                    <h3 id="total-price"></h3>
+                </div>
+
+                <button id="btn-complete">Compelte Order</button>
+            </section>
+
+            <form id="pay-form" action="">
+                <h1>Enter Card Details</h1>
+                <input type="text" placeholder="Enter Your name" name="buyername" required>
+                <input type="text" placeholder="Enter card number" minlength="10" required >
+                <input type="text" placeholder="Enter cvv"  minlength="3" required > 
+                <button type="submit" id="pay-btn">Pay</button> 
+             
+
+            </form>
+        </main>
+
+	    <script src="script.js" type="module"></script>
+    </body>
+</html>
+

@@ -1,0 +1,140 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+header, main {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 0 1em;
+}
+
+/* #pay-form {
+    display: none;
+} */
+
+.menu-item {
+    display: flex;
+    border-bottom: 1px solid #D2D2D2;
+    justify-content: space-between;
+    padding: 2em 0;
+}
+.menu-info {
+    display: flex;
+}
+
+h1{
+    text-align: center;
+}
+
+h3, p {
+    margin: 0;
+    text-align: left;
+}
+
+.emoji{
+    font-size: 40px;
+}
+
+.btn-add{
+    display: block;
+    padding: 10px;
+    border-radius: 50%;
+    outline: none;
+    border: .5px solid #DEDEDE;
+    color: 3c3c3c;
+    font-family: inter;
+    font-size: 20px;
+    right: 0;
+}
+
+.btn-rem{
+    display: block;
+    padding: 10px;
+    border-radius: 50%;
+    outline: none;
+    border: .5px solid #DEDEDE;
+    color: 3c3c3c;
+    font-family: inter;
+    font-size: 20px;
+    right: 0;
+}
+
+button:hover, button:focus{
+    cursor: pointer;
+}
+
+#order-container {
+    display: none;
+}
+
+.order-item, .order-item-info, .total { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-item-info {
+    gap: 2em;
+    align-items: center
+}
+
+.total {
+    border-top: 1px solid black;
+    margin-top: 1em;
+    padding-top: 1em;
+    margin-bottom: 1em; 
+}
+
+#btn-complete {
+    display: block;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    outline:none;
+    border: none;
+    background-color: #16DB99;
+}
+
+.order-item {
+    margin-top: 1em;
+}
+
+form{
+    display: none;
+    /* width: 300px; */
+    width: 524px;
+    height: 420px;
+    background-color: #fff;
+    padding: 15px 15px;
+    position: fixed;
+    border-radius: 2px;
+    top: 180px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 0px 0px  10px #000;
+    /* added */
+    /* justify-content: space-between; */
+}
+form #pay-btn{
+    font-family: verdana, sans-serif;
+    width: 100%;
+    padding: 10px;
+    background-color: #16DB99;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    /* margin-bottom: 20px; */
+}
+input{
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    height: 71.3px;
+    width: 475.91px;
+    left: 61.22px;
+    top: 615.35px;
+    border-radius: 3.89x;
+
+}
